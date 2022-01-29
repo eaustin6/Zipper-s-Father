@@ -14,7 +14,7 @@
     "website": "https://github.com/TheCaduceus/Zipper-s-Father",
     "success_url": "https://github.com/TheCaduceus/Zipper-s-Father",
     "env": {
-        "BOT_TOKEN ": {
+        "bot_token ": {
             "description": "Enter you bot token from Bot Father.",
             "required": "True"
         },
