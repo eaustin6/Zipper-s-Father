@@ -1,0 +1,41 @@
+{
+    "name": "Zipper-s-Father",
+    "logo": "https://telegra.ph//file/392e49da2eefec5b3b21e.jpg",
+    "description": "The Powerful Telegram Bot to zip unlimited No. of Files but max files size should be \"2GB\" a limit by  Telegram.org",
+    "keywords": [
+        "Zip",
+        "zipper",
+        "bot",
+        "unlimited",
+        "telegram",
+        "heroku"
+    ],
+    "repository": "https://github.com/TheCaduceus/Zipper-s-Father",
+    "website": "https://github.com/TheCaduceus/Zipper-s-Father",
+    "success_url": "https://github.com/TheCaduceus/Zipper-s-Father",
+    "env": {
+        "BOT_TOKEN ": {
+            "description": "Enter you bot token from Bot Father.",
+            "required": "True"
+        },
+        "APP_ID ": {
+            "description": "Enter app id get it from my.telegram.org",
+            "required": "True"
+        },
+        "APP_HASH ": {
+            "description": "Enter APP API HASH from my.telegram.org",
+            "required": "True"
+        },
+        "SESSION_DSN ": {
+            "description": "Enter Time out limit.",
+            "required": "True"
+        }
+    },
+    "stack": "heroku-20",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
